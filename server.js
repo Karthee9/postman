@@ -8,7 +8,8 @@ app.use(cors());
 
 app.use('/',express.static('public'));
 const mongoose = require("mongoose")
-const budgetModel = require("./models/budgetschema")
+
+const budgetModel = require("./models/budget_schema")
 
 let url = 'mongodb://127.0.0.1:27017/personalbudget';
 
